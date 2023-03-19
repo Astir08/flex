@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.parent{
+    height: 50;
+    width: 50;
+    background-color: brown;
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+    align-items: center;
+
+}
+
+.child{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: bisque;
+}
+
+.txt{
+    /*order: 2;*/
+    flex-grow: 5;
+
+}
